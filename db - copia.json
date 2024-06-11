@@ -1,0 +1,58 @@
+{
+  "productos": [
+    {
+      "id": "1",
+      "nombre": "Alfajores",
+      "imagen": "./img/alfajores.jpg",
+      "precio": "$ 60,00"
+    },
+    {
+      "id": "2",
+      "nombre": "Bombas",
+      "imagen": "./img/bombas.jpg",
+      "precio": "$ 60,00"
+    },
+    {
+      "id": "3",
+      "nombre": "Brownie",
+      "imagen": "./img/brownie.jpg",
+      "precio": "$ 60,00"
+    },
+    {
+      "id": "4",
+      "nombre": "Cookies",
+      "imagen": "./img/cookies.jpg",
+      "precio": "$ 60,00"
+    },
+    {
+      "id": "5",
+      "nombre": "Cupcakes",
+      "imagen": "./img/cupcakes.jpg",
+      "precio": "$ 60,00"
+    },
+    {
+      "id": "6",
+      "nombre": "Golfeados",
+      "imagen": "./img/golfeados.jpg",
+      "precio": "$ 60,00"
+    },
+    {
+      "id": "7",
+      "nombre": "Milhojas",
+      "imagen": "./img/milhojas.jpg",
+      "precio": "$ 60,00"
+    },
+    {
+      "id": "8",
+      "nombre": "Tartaletas",
+      "imagen": "./img/tartaletas.jpg",
+      "precio": "$ 60,00"
+    },
+    {
+      "id": "9",
+      "nombre": "Tresleches",
+      "imagen": "./img/tresleches.jpg",
+      "precio": "$ 60,00"
+    }
+  ]
+}

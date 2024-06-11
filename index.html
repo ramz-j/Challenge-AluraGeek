@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="./styles/reset.css" > -->
+    <link rel="stylesheet" href="./styles/main.css" >
+
+    <title>AluraGeek</title>
+</head>
+<body>
+    <header>
+        <img class="logo__img" src="./img/logo.png" />
+        <h1 class="logo__title" >AluraGeek</h1>
+    </header>
+    <main>
+
+        <section class="card__section">
+            <h2>Mis Productos:</h2>
+           <ul class="ul__cards" data-ul data-cards>
+                                   
+            </ul> 
+        </section>
+
+
+        <form class="container__formulario" data-formulario>
+
+            <div class="formulario__title">
+                <h2>Agregar</h2>
+                <h2>Producto:</h2>
+            </div>
+            
+
+            <input 
+                name="nombre" 
+                class="campo__nombre" 
+                placeholder="nombre..."
+                id="nombre"
+                data-nombre
+                required 
+            />
+            <input 
+                name="precio" 
+                class="campo__precio" 
+                placeholder="precio..."
+                id="precio"
+                data-precio
+                required 
+            />
+            <input 
+                name="imagenes" 
+                class="campo__imagen" 
+                placeholder="imagen..."
+                id="imagen"
+                data-imagen
+                required 
+            />
+
+            <div>
+                <input class="form__boton__enviar" type="submit" value="Enviar" />
+                <input class="form__boton__limpiar" type="reset" value="Limpiar" />
+            </div>
+            
+        </form>
+  
+
+    </main>
+    <footer>
+        <div class="footer__logo">
+            <img class="footer__img" src="./img/logo.png" />
+            <h1 class="footer__title">AluraGeek</h1>
+        </div>        
+        <p>Desarrollado por Jessica Ramírez</p>
+        <p><span>Alura Latam - 2024</span></p>
+    </footer>
+    <script src="./js/mostrarProductos.js" type="module"></script>
+    <script src="./js/crearProducto.js" type="module" ></script>
+    <script src="./js/borrarProducto.js" type="module" ></script>
+</body>
+</html>
