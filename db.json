@@ -1,18 +1,6 @@
 {
   "productos": [
     {
-      "id": "2",
-      "nombre": "Bombas",
-      "imagen": "./img/bombas.jpg",
-      "precio": "$ 60,00"
-    },
-    {
-      "id": "3",
-      "nombre": "Brownie",
-      "imagen": "./img/brownie.jpg",
-      "precio": "$ 60,00"
-    },
-    {
       "id": "4",
       "nombre": "Cookies",
       "imagen": "./img/cookies.jpg",
